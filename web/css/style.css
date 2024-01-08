@@ -1,0 +1,70 @@
+.center{
+  text-align: center;
+}
+
+body {
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+
+header {
+    background-color: #F1F1F1;
+    color: black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-link, .right-links {
+    display: flex;
+    align-items: center;
+
+}
+
+.right-links a {
+    margin-left: 20px;
+
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background-color: white;
+}
+
+#greeting{
+  background-color: #B0C4DE;
+  width: 100vw;
+  height: 20vh;
+}
+
+.content-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Creates two columns */
+    grid-gap: 20px; /* Adjust the space between the boxes */
+    padding: 20px;
+    margin: auto;
+    max-width: 1200px;
+
+}
+
+.content-box {
+    width: 100%; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    background-color: #f0f0f0; /* Example background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000; /* Example border */
+}
